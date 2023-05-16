@@ -8,7 +8,8 @@ Number of classes is arbitrary, but performance degrades exponentially at higher
 ```C++
 #include "MultiOtsu.h"
 
-//  Input and output images should be greyscale images (cv::IMREAD_GREYSCALE). Third argument is class count.
+//  Input and output images should be greyscale images (cv::IMREAD_GREYSCALE). 
+//  Third argument is class count.
 MultiOtsu myOtsu;
 myOtsu.multiOtsu(inputImage, outputImage, 3);
 ```
